@@ -2,8 +2,8 @@ require('dotenv').config();
 require('express-async-errors');
 const path = require('path')
 
-const mockData = require('./mock-data.json');
-const Job = require('./models/job')
+//const mockData = require('./mock-data.json');
+//const Job = require('./models/job')
 
 // extra security packages
 const helmet = require('helmet');
